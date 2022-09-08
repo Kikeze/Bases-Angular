@@ -1,9 +1,10 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from "@angular/core";
+import { BrowserModule } from "@angular/platform-browser";
 
-import { AppComponent } from 'src/app/app.component';
-import { HeroesModule } from 'src/app/heroes/heroes.module';
-import { ContadoresModule } from 'src/app/contadores/contadores.module';
+import { AppComponent } from "src/app/app.component";
+import { HeroesModule } from "src/app/heroes/heroes.module";
+import { ContadoresModule } from "src/app/contadores/contadores.module";
+import { DragonBallZModule } from "src/app/dragon-ball-z/dragon-ball-z.module";
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { ContadoresModule } from 'src/app/contadores/contadores.module';
   imports: [
     BrowserModule,
     ContadoresModule,
-    HeroesModule
+    HeroesModule,
+    DragonBallZModule
   ],
   providers: [],
   bootstrap: [AppComponent]
